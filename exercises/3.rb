@@ -15,3 +15,10 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_shopping_list = ["string cheese", "bacon", "chicken", "avocados", "water"]
+her_shopping_list = ["ice cream", "water"]
+
+our_shopping_list = my_shopping_list + her_shopping_list
+shared_shopping_list = our_shopping_list.sort
+unique_list = shared_shopping_list.uniq
+puts unique_list

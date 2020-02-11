@@ -21,3 +21,9 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+d1 = rand(1..6)
+d2 = rand(1..6)
+roll = "#{d1 + d2}"
+puts "#{d1}"
+puts "#{d2}"
+puts roll
